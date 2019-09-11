@@ -121,6 +121,10 @@ while i < len(input):
         transliterated += 'п'
     elif ch == 'P':
         transliterated += 'П'
+    elif ch == 'q':
+        transliterated += 'я'
+    elif ch == 'Q':
+        transliterated += 'Я'
     elif ch == 'r':
         transliterated += 'р'
     elif ch == 'R':
