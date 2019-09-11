@@ -44,9 +44,9 @@ while i < len(input):
     elif ch == 'D':
         transliterated += 'Д'
     elif ch == 'e':
-        transliterated += 'е'
+        transliterated += 'э'
     elif ch == 'E':
-        transliterated += 'Е'
+        transliterated += 'Э'
     elif ch == 'f':
         transliterated += 'ф'
     elif ch == 'F':
@@ -70,7 +70,7 @@ while i < len(input):
             if ch == 'o':
                 transliterated += 'ё'
             elif ch == 'e':
-                transliterated += 'э'
+                transliterated += 'е'
             elif ch == 'u':
                 transliterated += 'ю'
             elif ch == 'a':
@@ -86,7 +86,7 @@ while i < len(input):
             ch = input[i]
             if ch == 'o' or ch == 'O':
                 transliterated += 'Ё'
-            elif ch == 'e' or ch == 'E':
+            elif ch == 'e' or ch == 'Е':
                 transliterated += 'Э'
             elif ch == 'u' or ch == 'U':
                 transliterated += 'Ю'
