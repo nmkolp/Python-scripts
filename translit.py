@@ -86,8 +86,8 @@ while i < len(input):
             ch = input[i]
             if ch == 'o' or ch == 'O':
                 transliterated += 'Ё'
-            elif ch == 'e' or ch == 'Е':
-                transliterated += 'Э'
+            elif ch == 'e' or ch == 'E':
+                transliterated += 'Е'
             elif ch == 'u' or ch == 'U':
                 transliterated += 'Ю'
             elif ch == 'a' or ch == 'A':
